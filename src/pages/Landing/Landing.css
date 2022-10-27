@@ -1,0 +1,11 @@
+.main {
+    @apply w-full;
+}
+
+section#home {
+    @apply box-border pt-0;
+}
+
+section {
+    @apply box-border pt-28;
+}

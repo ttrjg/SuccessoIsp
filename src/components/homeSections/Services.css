@@ -1,0 +1,50 @@
+#services {
+    @apply container mx-auto px-4;
+}
+#services div.servicesHeader {
+    @apply flex flex-col justify-center items-center gap-6;
+}
+
+#services h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF];
+}
+
+section#services div.servicesHeader p {
+    font-family: var(--font-content);
+    @apply text-xl text-center font-medium;
+}
+
+.CardsWrapper {
+    @apply grid grid-cols-4 gap-10 py-14;
+}
+
+.CardsWrapper .card {
+    @apply h-60 flex flex-col justify-center items-center text-center shadow-lg hover:scale-105 transition-all;
+}
+
+.card.solar {
+    @apply bg-solarCard bg-cover;
+}
+
+.card.eletric {
+    @apply bg-eletricCard bg-cover;
+}
+
+.card.mec {
+    @apply bg-mecCard bg-cover;
+}
+
+.card.net {
+    @apply bg-netCard bg-cover bg-right;
+}
+
+.CardsWrapper .card p {
+    font-family: var(--font-title);
+    @apply text-4xl text-gray-100 flex flex-col;
+}
+
+.CardsWrapper .card p::after {
+    content: '';
+    @apply w-full h-[2px] bg-white;
+}

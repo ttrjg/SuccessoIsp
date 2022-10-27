@@ -1,0 +1,41 @@
+header {
+    @apply flex w-full h-24 justify-center items-center gap-40 fixed z-50 transition-all;
+}
+
+header.scroll {
+    @apply shadow-md bg-white/80 backdrop-blur-sm;
+}
+
+header img {
+    @apply h-full w-auto py-2;
+}
+
+header nav {
+    @apply flex justify-center items-center;
+}
+
+header ul {
+    @apply flex gap-6;
+}
+
+header ul li {
+    font-family: var(--font-title);
+    @apply text-2xl font-medium flex flex-col min-w-max;
+}
+
+header ul li a {
+    @apply transition-all;
+}
+
+header ul li a::after {
+    content: '';
+    @apply w-0 h-[2px] bg-[#0083FF] flex transition-all;
+}
+
+header ul li a.active {
+    @apply text-[#0083FF];
+}
+
+header ul li a.active::after {
+    @apply w-full;
+}
