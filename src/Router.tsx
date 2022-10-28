@@ -5,6 +5,7 @@ import { Contact } from "./components/homeSections/Contact";
 import { Home } from "./components/homeSections/Home";
 import { Services } from "./components/homeSections/Services";
 import { Landing } from "./pages/Landing/Landing";
+import { SolarEnergy } from "./pages/SolarEnergy/SolarEnergy";
 
 
 
@@ -37,6 +38,7 @@ export function Router() {
                element={<Contact />}
             />
          </Route>
+         <Route path="/energia-solar" element={<SolarEnergy />}/>
       </Routes>
    )
 }

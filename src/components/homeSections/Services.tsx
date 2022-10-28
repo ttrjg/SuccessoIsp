@@ -14,16 +14,29 @@ export function Services(){
 
          <div className="CardsWrapper">
             <div className="card solar">
-               <p>Projetos Solar</p>
+               <div className="PosiDivider">
+                  <p>Projetos Solar</p>                  
+               </div>
+               <div className="divider"></div>
             </div>
+            
             <div className="card eletric">
-               <p>Projetos Elétricos</p>
+               <div className="PosiDivider">
+                  <p>Projetos Elétricos</p>
+               </div>
+               <div className="divider"></div>
             </div>
             <div className="card mec">
-               <p>Projetos Mecânicos</p>
+               <div className="PosiDivider">
+                  <p>Projetos Mecânicos</p>
+               </div>
+               <div className="divider"></div>
             </div>
             <div className="card net">
-               <p>Projetos Telecom</p>
+               <div className="PosiDivider">
+                  <p>Projetos Telecom</p>
+               </div>
+               <div className="divider"></div>
             </div>
          </div>
       </section>

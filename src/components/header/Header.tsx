@@ -3,11 +3,21 @@ import logo from "../../assets/LogoCompleta.svg"
 import "./header.css"
 
 export function Header(){  
-  
-   function toggleStatus(event: any) {
-      let links = document.querySelectorAll("a")
-      links.forEach((link) => {link.classList.remove("active")})
-      event.target.classList.add("active")
+
+   function activeSectionByScroll() {
+      const sections = document.querySelectorAll("section")
+      sections.forEach((element) =>{
+         let links = document.querySelectorAll("header a")
+         if (((window.scrollY+1) >= element.offsetTop) && (window.scrollY < (element.offsetTop + element.offsetHeight))) {
+            links.forEach((link) => {link.classList.remove("active")
+            let id:any = link.getAttribute("href")?.toString()
+               if ((id.replace("#","")) === element.getAttribute('id')){
+                  link.classList.add("active")
+               }
+            })            
+         }
+      })      
+      
    }
 
    function hideHeader() {
@@ -17,6 +27,9 @@ export function Header(){
 
 
    document.addEventListener("scroll", hideHeader)
+   document.addEventListener("scroll", activeSectionByScroll)
+   
+   
 
    return(
 
@@ -26,19 +39,19 @@ export function Header(){
       <nav>
          <ul>
             <li>
-               <a href="#home" onClick={toggleStatus}> Sucesso ISP</a>  
+               <a href="#home" > Sucesso ISP</a>  
             </li>
             <li>
-               <a href="#about" onClick={toggleStatus}> Sobre</a>         
+               <a href="#about" > Sobre</a>         
             </li>
             <li>
-               <a href="#services" onClick={toggleStatus}> Serviços</a>  
+               <a href="#services" > Serviços</a>  
             </li>
             <li>
-               <a href="#clients" onClick={toggleStatus}> Clientes</a>  
+               <a href="#clients" > Clientes</a>  
             </li>
             <li>
-               <a href="#contact" onClick={toggleStatus}> Contato</a>  
+               <a href="#contact" > Contato</a>  
             </li>
          </ul>
       </nav>

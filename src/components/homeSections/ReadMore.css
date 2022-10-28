@@ -1,0 +1,9 @@
+#home .ReadMoreButton {
+    font-family: var(--font-content);
+    @apply my-4 py-2 px-4 rounded-sm shadow-lg hover:scale-105 hover:brightness-125 transition-all bg-[#0083FF];
+}
+
+#home .ReadMoreButton a {
+    font-family: var(--font-title);
+    @apply text-2xl flex items-center justify-center gap-2 font-medium text-white tracking-wide;
+}

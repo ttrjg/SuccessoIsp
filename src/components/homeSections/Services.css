@@ -20,7 +20,11 @@ section#services div.servicesHeader p {
 }
 
 .CardsWrapper .card {
-    @apply h-60 flex flex-col justify-center items-center text-center shadow-lg hover:scale-105 transition-all;
+    @apply h-60 hover:scale-105 transition-all;
+}
+
+.CardsWrapper .card .PosiDivider {
+    @apply h-60 flex flex-col justify-center items-center text-center shadow-lg;
 }
 
 .card.solar {
@@ -47,4 +51,8 @@ section#services div.servicesHeader p {
 .CardsWrapper .card p::after {
     content: '';
     @apply w-full h-[2px] bg-white;
+}
+
+section#services .divider {
+    @apply w-full h-[3px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
 }
