@@ -1,0 +1,11 @@
+#solar-banner {
+    @apply relative;
+}
+
+#solar-banner img {
+    @apply w-full h-[85vh] object-cover;
+}
+
+#solar-banner .BannerContent {
+    @apply absolute;
+}

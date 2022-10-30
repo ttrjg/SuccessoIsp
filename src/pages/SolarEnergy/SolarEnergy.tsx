@@ -1,5 +1,11 @@
+import { SolarBanner } from "../../components/SolarComponents/SolarBanner";
+
+import './SolarEnergy.css'
+
 export function SolarEnergy() {
    return (
-      <h2>SolarEnergy</h2>
+      <div>
+         <SolarBanner />
+      </div>
    )
 }

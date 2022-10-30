@@ -1,9 +1,9 @@
 header {
-    @apply flex w-full h-24 justify-center items-center gap-40 fixed z-50 transition-all;
+    @apply flex w-full h-24 justify-center items-center fixed z-50 transition-all gap-[34rem];
 }
 
 header.scroll {
-    @apply shadow-md bg-white/80 backdrop-blur-sm;
+    @apply shadow-md bg-white/75 backdrop-blur-sm;
 }
 
 header img {

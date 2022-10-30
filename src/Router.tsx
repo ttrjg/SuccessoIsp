@@ -17,24 +17,24 @@ export function Router() {
       <Routes>
          <Route path="/" element={<Landing/>}>
             <Route
-               path="#home"
+               path="home"
                element={<Home/>}
             />
             <Route
-               path="#about"
+               path="about"
                element={<About/>}
                
             />
             <Route
-               path="#services"
+               path="services"
                element={<Services />}
             />
             <Route
-               path="#clients"
+               path="clients"
                element={<Clients />}
             />
             <Route
-               path="#contact"
+               path="contact"
                element={<Contact />}
             />
          </Route>

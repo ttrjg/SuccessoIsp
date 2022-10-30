@@ -6,12 +6,15 @@ export function Header(){
 
    function activeSectionByScroll() {
       const sections = document.querySelectorAll("section")
+
       sections.forEach((element) =>{
          let links = document.querySelectorAll("header a")
+
          if (((window.scrollY+1) >= element.offsetTop) && (window.scrollY < (element.offsetTop + element.offsetHeight))) {
             links.forEach((link) => {link.classList.remove("active")
             let id:any = link.getAttribute("href")?.toString()
-               if ((id.replace("#","")) === element.getAttribute('id')){
+            
+               if ((id.replace("/#","")) === element.getAttribute('id')){
                   link.classList.add("active")
                }
             })            
@@ -22,7 +25,7 @@ export function Header(){
 
    function hideHeader() {
       const header:any = document.querySelector("header")
-      header.classList.toggle("scroll", window.scrollY >= 150)
+      header.classList.toggle("scroll", window.scrollY >= 0)
    }
 
 
@@ -39,19 +42,19 @@ export function Header(){
       <nav>
          <ul>
             <li>
-               <a href="#home" > Sucesso ISP</a>  
+               <a href="/#home" > Sucesso ISP</a>  
             </li>
             <li>
-               <a href="#about" > Sobre</a>         
+               <a href="/#about" > Sobre</a>         
             </li>
             <li>
-               <a href="#services" > Serviços</a>  
+               <a href="/#services" > Serviços</a>  
             </li>
             <li>
-               <a href="#clients" > Clientes</a>  
+               <a href="/#clients" > Clientes</a>  
             </li>
             <li>
-               <a href="#contact" > Contato</a>  
+               <a href="/#contact" > Contato</a>  
             </li>
          </ul>
       </nav>

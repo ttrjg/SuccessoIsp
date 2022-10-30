@@ -5,14 +5,11 @@ import { Services } from "../../components/homeSections/Services"
 import { Clients } from "../../components/homeSections/Clients"
 import { Contact } from "../../components/homeSections/Contact"
 
-interface getRefs {
-   refs?: any[]
-}
 
-export function Landing(props: getRefs) {
+export function Landing() {
 
    return(
-      <div className="main">
+      <div>
          <Home />
          <About />
          <Services />
