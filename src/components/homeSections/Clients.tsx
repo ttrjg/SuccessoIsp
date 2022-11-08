@@ -31,6 +31,20 @@ export function Clients(){
                <Swiper
                   slidesPerView={5}
                   spaceBetween={10}
+                  breakpoints={{
+                     0:{
+                       slidesPerView: 2,
+                     },
+                     640: {
+                       slidesPerView: 3,
+                     },
+                     768: {
+                       slidesPerView: 4,                    
+                     },
+                     1024: {
+                       slidesPerView: 5,                    
+                     },
+                   }}
                   pagination={{
                      clickable: true,
                      dynamicBullets: true

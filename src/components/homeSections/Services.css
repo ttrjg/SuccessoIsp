@@ -15,40 +15,40 @@ section#services div.servicesHeader p {
     @apply text-xl text-center font-medium;
 }
 
-.CardsWrapper {
-    @apply grid grid-cols-4 gap-10 py-14;
+#services .CardsWrapper {
+    @apply grid gap-10 py-14 lg:grid-cols-4 md:grid-cols-2;
 }
 
-.CardsWrapper .card {
-    @apply h-60 hover:scale-105 transition-all;
+#services .CardsWrapper .card {
+    @apply h-60 hover:scale-105 transition-all duration-200;
 }
 
-.CardsWrapper .card .PosiDivider {
+#services .CardsWrapper .card .PosiDivider {
     @apply h-60 flex flex-col justify-center items-center text-center shadow-lg;
 }
 
-.card.solar {
+#services .card.solar {
     @apply bg-solarCard bg-cover;
 }
 
-.card.eletric {
+#services .card.eletric {
     @apply bg-eletricCard bg-cover;
 }
 
-.card.mec {
+#services .card.mec {
     @apply bg-mecCard bg-cover;
 }
 
-.card.net {
+#services .card.net {
     @apply bg-netCard bg-cover bg-right;
 }
 
-.CardsWrapper .card p {
+#services .CardsWrapper .card p {
     font-family: var(--font-title);
     @apply text-4xl text-gray-100 flex flex-col;
 }
 
-.CardsWrapper .card p::after {
+#services .CardsWrapper .card p::after {
     content: '';
     @apply w-full h-[2px] bg-white;
 }

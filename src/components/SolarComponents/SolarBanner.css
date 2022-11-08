@@ -1,11 +1,28 @@
 #solar-banner {
-    @apply relative;
+    @apply relative flex flex-col;
 }
 
-#solar-banner img {
-    @apply w-full h-[85vh] object-cover;
+#solar-banner .img {
+    @apply w-full h-[85vh] overflow-hidden;
+}
+
+#solar-banner .img img {
+    @apply w-full h-full object-cover transition-all duration-[25000ms] ease-linear;
 }
 
 #solar-banner .BannerContent {
-    @apply absolute;
+    @apply flex flex-col gap-8 absolute bottom-0 mb-20 z-10 ml-8 md:ml-32;
+}
+
+#solar-banner .BannerContent .adjust {
+    @apply flex flex-col w-max;
+}
+
+#solar-banner h2 {
+    font-family: var(--font-title);
+    @apply bg-[#003156] leading-none py-2 px-6 items-center md:text-[4rem] text-white text-3xl;
+}
+
+section#solar-banner .divider1 {
+    @apply w-full h-[2px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
 }

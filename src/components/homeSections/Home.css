@@ -1,5 +1,5 @@
 #home .swiper {
-    @apply w-full flex justify-center h-[75vh];
+    @apply w-full flex justify-center h-[50vh] sm:h-[75vh];
 }
 
 #home .swiper-slide {
@@ -33,7 +33,7 @@
 
 #home .swiper-slide .swiperContent p {
     font-family: var(--font-title);
-    @apply text-5xl text-white bg-[#003156] p-2 px-4 shadow-lg;
+    @apply text-3xl md:text-5xl text-white bg-[#003156] p-2 px-4 shadow-lg;
 }
 
 section#home .divider {

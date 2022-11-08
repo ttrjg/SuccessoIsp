@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Services.css"
 
 export function Services(){
@@ -14,10 +15,12 @@ export function Services(){
 
          <div className="CardsWrapper">
             <div className="card solar">
-               <div className="PosiDivider">
-                  <p>Projetos Solar</p>                  
-               </div>
-               <div className="divider"></div>
+               <Link to="energia-solar">
+                  <div className="PosiDivider">
+                     <p>Projetos Solar</p>                  
+                  </div>
+                  <div className="divider"></div>          
+               </Link>                 
             </div>
             
             <div className="card eletric">

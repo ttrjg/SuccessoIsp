@@ -1,0 +1,34 @@
+.background {
+    @apply bg-[#061c2c];
+}
+
+#WhyISP {
+    @apply container mx-auto flex flex-col items-center;
+}
+
+#WhyISP h2 {
+    font-family: var(--font-title);
+    @apply text-4xl tracking-wide text-center text-white w-max px-6 mb-2;
+}
+
+#WhyISP .CardWrapper {
+    @apply grid  gap-10 py-10 lg:grid-cols-3 sm:grid-cols-1;
+}
+
+#WhyISP .CardWrapper .Card {
+    @apply flex flex-col items-center justify-start gap-4 px-8 py-10 hover:scale-105 transition-all duration-200;
+}
+
+#WhyISP .CardWrapper .Card h3 {
+    font-family: var(--font-title);
+    @apply text-3xl text-center px-4 py-1 text-white;
+}
+
+#WhyISP .divider {
+    @apply w-full h-[2px] bg-gradient-to-r from-[#61F4DE] to-[#6E78FF];
+}
+
+#WhyISP .CardWrapper .Card p {
+    font-family: var(--font-content);
+    @apply text-justify text-lg text-white;
+}
