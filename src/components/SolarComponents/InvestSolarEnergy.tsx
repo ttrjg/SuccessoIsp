@@ -4,6 +4,11 @@ import './InvestSolarEnergy.css'
 export function InvestSolarEnergy() {
    return(
       <section id="InvestSolarEnergy">
+            <div id="title">
+               <h1>Energia Solar</h1>
+               <div className="divider"></div>
+            </div>
+            
             <h2>Porque Investir em Energia Solar?</h2>
 
             <div className="CardWrapper">               

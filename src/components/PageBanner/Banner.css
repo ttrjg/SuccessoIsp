@@ -3,7 +3,7 @@
 }
 
 #solar-banner .img {
-    @apply w-full h-[85vh] overflow-hidden;
+    @apply w-full h-[65vh] lg:h-[85vh] overflow-hidden;
 }
 
 #solar-banner .img img {

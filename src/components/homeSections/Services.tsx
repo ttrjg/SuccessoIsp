@@ -14,6 +14,7 @@ export function Services(){
          </div>
 
          <div className="CardsWrapper">
+
             <div className="card solar">
                <Link to="energia-solar">
                   <div className="PosiDivider">
@@ -24,10 +25,12 @@ export function Services(){
             </div>
             
             <div className="card eletric">
-               <div className="PosiDivider">
-                  <p>Projetos Elétricos</p>
-               </div>
-               <div className="divider"></div>
+               <Link to="engenharia-eletrica">
+                  <div className="PosiDivider">
+                     <p>Projetos Elétricos</p>
+                  </div>
+                  <div className="divider"></div>
+               </Link> 
             </div>
             <div className="card mec">
                <div className="PosiDivider">

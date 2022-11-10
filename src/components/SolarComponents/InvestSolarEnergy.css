@@ -2,6 +2,15 @@
     @apply container mx-auto;
 }
 
+#InvestSolarEnergy #title {
+    @apply mb-16 w-max;
+}
+
+#InvestSolarEnergy h1 {
+    font-family: var(--font-title);
+    @apply text-5xl tracking-wide text-center bg-[#003156] px-4 py-1 text-white;
+}
+
 #InvestSolarEnergy h2 {
     font-family: var(--font-title);
     @apply text-4xl tracking-wide text-center text-[#0083FF];
@@ -12,7 +21,7 @@
 }
 
 #InvestSolarEnergy .CardWrapper .Card {
-    @apply flex flex-col items-center justify-start gap-4 px-8 py-10 shadow-lg hover:scale-105 transition-all duration-200;
+    @apply flex flex-col items-center justify-start gap-4 px-8 py-10 shadow-lg hover:scale-105 transition-all duration-200 bg-[#FFFFFF];
 }
 
 #InvestSolarEnergy .CardWrapper .Card h3 {

@@ -7,7 +7,7 @@ module.exports = {
                 solarCard: "url('/src/assets/bgSolarService.jpg')",
                 eletricCard: "url('/src/assets/bgEletService.jpg')",
                 mecCard: "url('/src/assets/bgMecService.jpg')",
-                netCard: "url('/src/assets/NetSlide.png')",
+                netCard: "url('src/assets/slides/NetSlide.png')",
                 project1: "url('/src/assets/SolarProjects/UsinaARTSUL.png')",
                 project2: "url('/src/assets/SolarProjects/UsinaJaperi.png')",
                 project3: "url('/src/assets/SolarProjects/UsinaHakme.png')",

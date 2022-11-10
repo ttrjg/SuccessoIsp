@@ -1,7 +1,7 @@
 import { Contact } from "../../components/homeSections/Contact";
 import { Brands } from "../../components/SolarComponents/Brands";
 import { InvestSolarEnergy } from "../../components/SolarComponents/InvestSolarEnergy";
-import { SolarBanner } from "../../components/SolarComponents/SolarBanner";
+import { Banner } from "../../components/PageBanner/Banner";
 import { SolarProjects } from "../../components/SolarComponents/SolarProjects";
 import { WhyIsp } from "../../components/SolarComponents/WhyIsp";
 
@@ -22,7 +22,10 @@ export function SolarEnergy() {
 
    return (
       <div>
-         <SolarBanner />
+         <Banner 
+            img="src\assets\Banners\SolarBanner.png" 
+            content="ESTEJA PRONTO PARA o futuro"
+         />
          <InvestSolarEnergy />
          <WhyIsp />
          <Brands />

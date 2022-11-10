@@ -32,6 +32,20 @@ export function Brands(){
                      clickable: true,
                      dynamicBullets: true
                   }}
+                  breakpoints={{
+                     0:{
+                       slidesPerView: 2,
+                     },
+                     640: {
+                       slidesPerView: 3,
+                     },
+                     768: {
+                       slidesPerView: 4,                    
+                     },
+                     1024: {
+                       slidesPerView: 5,                    
+                     },
+                   }}
                   loop={true}
                   keyboard={true}
                   autoplay={{

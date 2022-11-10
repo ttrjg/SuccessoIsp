@@ -1,5 +1,5 @@
 #home .swiper {
-    @apply w-full flex justify-center h-[50vh] sm:h-[75vh];
+    @apply w-full flex justify-center h-[65vh] sm:h-[75vh];
 }
 
 #home .swiper-slide {

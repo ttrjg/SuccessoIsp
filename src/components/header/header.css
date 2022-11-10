@@ -3,11 +3,11 @@ header {
 }
 
 header .content {
-    @apply container w-full h-24 flex justify-between;
+    @apply container w-full h-24 flex justify-between items-center px-10;
 }
 
 header img {
-    @apply h-full w-auto py-2;
+    @apply md:h-full h-[85%] w-auto py-2;
 }
 
 header nav {

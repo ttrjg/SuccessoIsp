@@ -8,10 +8,10 @@ import "swiper/css/effect-fade"
 
 import "./Home.css"
 
-import slide1 from "../../assets/SolarEnergySlide.jpg"
-import slide2 from "../../assets/NetSlide.png"
-import slide3 from "../../assets/AutomationSlide.jpg"
-import slide4 from "../../assets/MecanicSlide.png"
+import slide1 from "../../assets/slides/SolarEnergySlide.jpg"
+import slide2 from "../../assets/slides/NetSlide.png"
+import slide3 from "../../assets/slides/AutomationSlide.jpg"
+import slide4 from "../../assets/slides/MecanicSlide.png"
 
 
 
@@ -67,7 +67,7 @@ export function Home() {
                      <div className="divider1"></div> 
                   </div>
                   
-                  <ReadMore link="energia-solar"/>
+                  <ReadMore link="engenharia-eletrica"/>
                </div>
             </SwiperSlide>
 

@@ -1,5 +1,5 @@
 div.footer {
-    @apply w-full mt-20 mx-auto px-4 py-10 flex justify-center items-center gap-6 bg-[#003156];
+    @apply w-full mx-auto px-4 py-10 flex justify-center items-center gap-6 bg-[#003156];
 }
 
 div.footer h2 {

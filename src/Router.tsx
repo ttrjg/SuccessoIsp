@@ -1,9 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { About } from "./components/homeSections/About";
-import { Clients } from "./components/homeSections/Clients";
-import { Contact } from "./components/homeSections/Contact";
-import { Home } from "./components/homeSections/Home";
-import { Services } from "./components/homeSections/Services";
+import { EletricalEng } from "./pages/EletricalEngineering/EletricalEng";
 import { Landing } from "./pages/Landing/Landing";
 import { SolarEnergy } from "./pages/SolarEnergy/SolarEnergy";
 
@@ -15,30 +11,9 @@ export function Router() {
    return (
       
       <Routes>
-         <Route path="/" element={<Landing/>}>
-            <Route
-               path="home"
-               element={<Home/>}
-            />
-            <Route
-               path="about"
-               element={<About/>}
-               
-            />
-            <Route
-               path="services"
-               element={<Services />}
-            />
-            <Route
-               path="clients"
-               element={<Clients />}
-            />
-            <Route
-               path="contact"
-               element={<Contact />}
-            />
-         </Route>
+         <Route path="/" element={<Landing/>}/>
          <Route path="/energia-solar" element={<SolarEnergy />}/>
+         <Route path="/engenharia-eletrica" element={<EletricalEng />}/>
       </Routes>
    )
 }
