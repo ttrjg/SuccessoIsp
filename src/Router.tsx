@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { EletricalEng } from "./pages/EletricalEng";
 import { Landing } from "./pages/Landing";
+import { MechanicalEng } from "./pages/MechanicalEng";
 import { NetPage } from "./pages/NetPage";
 import { SolarEnergy } from "./pages/SolarEnergy";
 
@@ -16,6 +17,7 @@ export function Router() {
          <Route path="/energia-solar" element={<SolarEnergy />}/>
          <Route path="/engenharia-eletrica" element={<EletricalEng />}/>
          <Route path="/telecom" element={<NetPage />}/>
+         <Route path="/engenharia-mecanica" element={<MechanicalEng />}/>
       </Routes>
    )
 }

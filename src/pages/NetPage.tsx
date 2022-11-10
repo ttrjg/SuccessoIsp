@@ -42,7 +42,8 @@ export function NetPage() {
 
          <ProjectsGalery
             images={[
-               'src/assets/EleticalPage/Projetos/LinhaInspecao.png',
+               'src/assets/Telecom/Projeto1.png',
+               'src/assets/Telecom/Projeto2.png',
                'src/assets/EleticalPage/Projetos/SeccionadoraHorizontal.png',
                'src/assets/EleticalPage/Projetos/TolvaRosqueadoraTampas.png',
                'src/assets/EleticalPage/Projetos/EnvasadoraBaterias.png',

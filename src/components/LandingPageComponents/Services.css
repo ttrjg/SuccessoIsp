@@ -1,0 +1,58 @@
+#services {
+    @apply container mx-auto px-4;
+}
+#services div.servicesHeader {
+    @apply flex flex-col justify-center items-center gap-6;
+}
+
+#services h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF];
+}
+
+section#services div.servicesHeader p {
+    font-family: var(--font-content);
+    @apply text-xl text-center font-medium;
+}
+
+#services .CardsWrapper {
+    @apply grid gap-10 py-14 lg:grid-cols-4 md:grid-cols-2;
+}
+
+#services .CardsWrapper .card {
+    @apply h-60 hover:scale-105 transition-all duration-200;
+}
+
+#services .CardsWrapper .card .PosiDivider {
+    @apply h-60 flex flex-col justify-center items-center text-center shadow-lg;
+}
+
+#services .card.solar {
+    @apply bg-solarCard bg-cover;
+}
+
+#services .card.eletric {
+    @apply bg-eletricCard bg-cover;
+}
+
+#services .card.mec {
+    @apply bg-mecCard bg-cover;
+}
+
+#services .card.net {
+    @apply bg-netCard bg-cover bg-right;
+}
+
+#services .CardsWrapper .card p {
+    font-family: var(--font-title);
+    @apply text-4xl text-gray-100 flex flex-col;
+}
+
+#services .CardsWrapper .card p::after {
+    content: '';
+    @apply w-full h-[2px] bg-white;
+}
+
+section#services .divider {
+    @apply w-full h-[3px] bg-gradient-to-l from-[#61F4DE] to-[#6E78FF];
+}

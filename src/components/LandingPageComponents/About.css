@@ -1,0 +1,13 @@
+section#about div {
+    @apply container mx-auto px-4 flex flex-col gap-6;
+}
+
+section#about h2 {
+    font-family: var(--font-title);
+    @apply text-4xl text-[#0083FF];
+}
+
+#about p {
+    font-family: var(--font-content);
+    @apply text-xl text-justify font-medium;
+}
