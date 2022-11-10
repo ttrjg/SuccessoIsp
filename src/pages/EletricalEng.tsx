@@ -1,7 +1,9 @@
-import { Section } from "../../components/EletricalComponents/Section";
-import { HomeEletricalEng } from "../../components/EletricalComponents/HomeEletricalEng";
-import { Banner } from "../../components/PageBanner/Banner";
-import { EletricalProjects } from "../../components/EletricalComponents/EletricalProjects";
+import { Section } from "../components/General/Section";
+import { HomeEletricalEng } from "../components/EletricalComponents/HomeEletricalEng";
+import { Banner } from "../components/General/Banner";
+import { ProjectsGalery } from "../components/General/ProjectsGalery";
+import { Contact } from "../components/General/Contact";
+
 
 export function EletricalEng() {
 
@@ -48,7 +50,18 @@ export function EletricalEng() {
             img="src\assets\EleticalPage\Automação.jpg"
          />
          
-         <EletricalProjects />
+         <ProjectsGalery
+            images={[
+               'src/assets/EleticalPage/Projetos/LinhaInspecao.png',
+               'src/assets/EleticalPage/Projetos/SeccionadoraHorizontal.png',
+               'src/assets/EleticalPage/Projetos/TolvaRosqueadoraTampas.png',
+               'src/assets/EleticalPage/Projetos/EnvasadoraBaterias.png',
+               'src/assets/EleticalPage/Projetos/HotStamp.png',
+               'src/assets/EleticalPage/Projetos/MesaVibratoria.png'
+            ]}
+         />
+
+         <Contact /> 
 
       </div>
    )

@@ -36,7 +36,7 @@ export function Banner(props: getData) {
                   <div className="divider1"></div>
                </div>
 
-               <a href="" className="button">
+               <a href="https://api.whatsapp.com/message/BKDKMSKTRJSHH1?autoload=1&amp;app_absent=0" className="button" target="_blank">
                   <WhatsappLogo size={32} />
                   Peça seu orçamento
                </a>

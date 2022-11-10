@@ -1,5 +1,3 @@
-import sideImg1 from "../../assets/EleticalPage/ExecutiveProject.jpg"
-
 import "./Section.css"
 
 interface getData {

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination, EffectFade, Autoplay } from "swiper";
-import { ReadMore } from './ReadMore';
+import { ReadMore } from '../General/ReadMore';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -55,7 +55,7 @@ export function Home() {
                      <div className="divider1"></div>
                   </div>
                   
-                  <ReadMore link="energia-solar"/>
+                  <ReadMore link="telecom"/>
                </div>
             </SwiperSlide>
 

@@ -1,4 +1,5 @@
 #ExecutiveProjects {
+    @apply px-0;
 }
 
 #ExecutiveProjects.blue {
@@ -16,7 +17,7 @@
 }
 
 #ExecutiveProjects .parts {
-    @apply container mx-auto flex gap-10 flex-col md:flex-row;
+    @apply container mx-auto flex gap-10 flex-col md:flex-row px-10;
 }
 
 #ExecutiveProjects .parts div {

@@ -11,7 +11,7 @@
 }
 
 #solar-banner .BannerContent {
-    @apply flex flex-col gap-8 absolute bottom-0 mb-20 z-10 ml-8 md:ml-32;
+    @apply flex flex-col gap-8 absolute bottom-0 mb-20 z-10 ml-8 md:ml-14 lg:ml-32;
 }
 
 #solar-banner .BannerContent .adjust {

@@ -1,0 +1,21 @@
+#NetPageHome {
+    @apply container mx-auto;
+}
+
+#NetPageHome .divider {
+    @apply w-full h-[2px] bg-gradient-to-r from-[#61F4DE] to-[#6E78FF];
+}
+
+#NetPageHome #title {
+    @apply mb-14 w-max;
+}
+
+#NetPageHome h1 {
+    font-family: var(--font-title);
+    @apply text-3xl lg:text-4xl tracking-wide text-center bg-[#003156] px-4 py-2 text-white;
+}
+
+#NetPageHome p {
+    font-family: var(--font-content);
+    @apply text-lg md:text-xl xl:text-2xl text-justify;
+}

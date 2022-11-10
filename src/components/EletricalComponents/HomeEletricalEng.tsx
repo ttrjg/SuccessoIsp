@@ -4,7 +4,6 @@ export function HomeEletricalEng(){
    return(
       <section id="HomeEletEng">
 
-
             <div id="title">
                <h1>Projetos Elétricos</h1>
                <div className="divider"></div>

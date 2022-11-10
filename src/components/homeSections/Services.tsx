@@ -32,17 +32,23 @@ export function Services(){
                   <div className="divider"></div>
                </Link> 
             </div>
+
             <div className="card mec">
-               <div className="PosiDivider">
-                  <p>Projetos Mecânicos</p>
-               </div>
-               <div className="divider"></div>
+               <Link to="telecom">
+                  <div className="PosiDivider">
+                     <p>Projetos Mecânicos</p>
+                  </div>
+                  <div className="divider"></div>
+               </Link> 
             </div>
+
             <div className="card net">
-               <div className="PosiDivider">
-                  <p>Projetos Telecom</p>
-               </div>
-               <div className="divider"></div>
+               <Link to="telecom">
+                  <div className="PosiDivider">
+                     <p>Projetos Telecom</p>
+                  </div>
+                  <div className="divider"></div>
+               </Link> 
             </div>
          </div>
       </section>
