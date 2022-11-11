@@ -1,0 +1,21 @@
+#HomeMechaEng {
+    @apply container mx-auto;
+}
+
+#HomeMechaEng .divider {
+    @apply w-full h-[2px] bg-gradient-to-r from-[#61F4DE] to-[#6E78FF];
+}
+
+#HomeMechaEng #title {
+    @apply mb-14 w-max;
+}
+
+#HomeMechaEng h1 {
+    font-family: var(--font-title);
+    @apply text-3xl lg:text-4xl tracking-wide text-center bg-[#003156] px-4 py-2 text-white;
+}
+
+#HomeMechaEng p {
+    font-family: var(--font-content);
+    @apply text-lg lg:text-xl xl:text-2xl text-justify;
+}

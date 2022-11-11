@@ -7,9 +7,9 @@ export function Services(){
          <div className="servicesHeader">
             <h2>Nossos serviços</h2>
 
-            <p>Desenvolvemos projetos elétricos modernos, seguros e de qualidade.
+            <p>Desenvolvemos projetos modernos, seguros e de qualidade, nas diversas áreas da engenharia.
             <br />
-            Nosso corpo técnico é formado por engenheiros eletricistas, civis e mecânicos e técnicos em altamente qualificados.
+            Nosso corpo técnico é formado por engenheiros eletricistas, mecânicos e civis além de técnicos altamente qualificados certificados nas NRs.
             </p>
          </div>
 

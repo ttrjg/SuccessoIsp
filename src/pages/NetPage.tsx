@@ -42,13 +42,12 @@ export function NetPage() {
 
          <ProjectsGalery
             images={[
-               'src/assets/Telecom/Projeto1.png',
-               'src/assets/Telecom/Projeto2.png',
-               'src/assets/EleticalPage/Projetos/SeccionadoraHorizontal.png',
-               'src/assets/EleticalPage/Projetos/TolvaRosqueadoraTampas.png',
-               'src/assets/EleticalPage/Projetos/EnvasadoraBaterias.png',
-               'src/assets/EleticalPage/Projetos/HotStamp.png',
-               'src/assets/EleticalPage/Projetos/MesaVibratoria.png'
+               'src/assets/Telecom/Projetos/Projeto1.png',
+               'src/assets/Telecom/Projetos/Projeto2.png',
+               'src/assets/Telecom/Projetos/Projeto3.png',
+               'src/assets/Telecom/Projetos/Projeto4.png',
+               'src/assets/Telecom/Projetos/Projeto5.png',
+               'src/assets/Telecom/Projetos/Projeto6.png',             
             ]}
          />
 

@@ -35,9 +35,7 @@ export function EletricalEng() {
          <Section   
             Title="Paineís Industriais" 
             Content="
-            Projetos elétricos minusiosamente desenvolvidos pensando na segurança, economia e comodidade de nossos clientes.
-
-            Projetos desenvolvidos conforme a sua necessidade. Afim de evitar futuras adequações e manutenções em suas instalações.
+            Com grande diversidade de produtos procuramos atender todas as necessidades de nossos cliente, desenvolvemos quadros de distribuição de força, quadro de distribuição geral, centros de comando de motores, banco de capacitores, quadros de automação, painéis eletricos para máquinas, entre outros.
             "
             img="src\assets\EleticalPage\PaineisEletricos.jpg"
          />
