@@ -22,7 +22,9 @@ export function EletricalEng() {
             img="src\assets\Banners\EletricalBanner.jpg" 
             content="ESTEJA PRONTO PARA O FUTURO"
          />
+
          <HomeEletricalEng />
+
          <Section 
             Title="Projetos executivos" 
             Color="blue"  
@@ -32,6 +34,7 @@ export function EletricalEng() {
             "
             img="src\assets\EleticalPage\ExecutiveProject.jpg"
          />
+
          <Section   
             Title="Paineís Industriais" 
             Content="
@@ -39,6 +42,7 @@ export function EletricalEng() {
             "
             img="src\assets\EleticalPage\PaineisEletricos.jpg"
          />
+
          <Section
             Title="Automação Industrial e Reformas de máquinas" 
             Color="blue"    
@@ -47,7 +51,7 @@ export function EletricalEng() {
             "
             img="src\assets\EleticalPage\Automação.jpg"
          />
-         
+          
          <ProjectsGalery
             images={[
                'src/assets/EleticalPage/Projetos/LinhaInspecao.png',
@@ -55,7 +59,10 @@ export function EletricalEng() {
                'src/assets/EleticalPage/Projetos/TolvaRosqueadoraTampas.png',
                'src/assets/EleticalPage/Projetos/EnvasadoraBaterias.png',
                'src/assets/EleticalPage/Projetos/HotStamp.png',
-               'src/assets/EleticalPage/Projetos/MesaVibratoria.png'
+               'src/assets/EleticalPage/Projetos/MesaVibratoria.png',
+               'src/assets/EleticalPage/Projetos/AlimentadorBarras.png',
+               'src/assets/EleticalPage/Projetos/DispositivoAutomacao.png'
+
             ]}
          />
 

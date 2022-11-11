@@ -10,10 +10,9 @@ export function HomeMechanicalEng(){
             </div>
 
             <p>
-            Projetos executivos planejados para suprir as necessidades de cada um de nossos clientes, seja ele residencial, comercial ou industrial. Desenvolvemos projetos modernos, seguros e de qualidade para que tudo ocorra de maneira harmoniosa e planejada, trazendo economia e segurança durante a execução.
-            <br />
-            <br />
-            Não importa o tamanho ou a dificuldade do seu projeto, nós oferecemos sempre a melhor solução, com segurança, satisfação e qualidade, buscando sempre superar suas expectativas.
+            Projetos desenvolvidos para clientes dos mais diversos ramos de atuação, industrial, agrícola, metalúrgico, entre outros.
+            Realizamos um estudo de aplicação elaborado para cada cliente, buscando suprir da melhor forma a necessidade de cada um com total segurança e transparência no desenvolvimento.
+            Um equipamento desenvolvido adequadamente melhora a capacidade produtiva de sua empresa, mantendo a segurança e qualidade.
             </p>
 
 

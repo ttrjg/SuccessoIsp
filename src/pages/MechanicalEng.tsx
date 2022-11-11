@@ -2,6 +2,7 @@ import { Banner } from "../components/General/Banner"
 import { Contact } from "../components/General/Contact"
 import { ProjectsGalery } from "../components/General/ProjectsGalery"
 import { Section } from "../components/General/Section"
+import { HomeMechanicalEng } from "../components/MechanicalComponents/HomeMechanicalEng"
 
 export function MechanicalEng() {
 
@@ -20,6 +21,8 @@ export function MechanicalEng() {
             img="src\assets\MechanicalPage\MecanicSlide.png" 
             content="ESTEJA PRONTO PARA O FUTURO"
          />
+
+         <HomeMechanicalEng />
 
          <Section 
             Title="Moldes de injeção termoplástica e zamac" 
@@ -44,15 +47,28 @@ export function MechanicalEng() {
             "
             img="src\assets\MechanicalPage\Dispositivos.jpg"
          />
+         <Section
+            Title="Automação Industrial e Reformas de máquinas"    
+            Content="
+            Projetos elaborados analisando a real necessidade do seu processo, onde entregamos um relatório detalhado sobre o desenvolvimento da máquina ou equipamento a ser desenvolvido ou reformado para uma melhor eficiência.
+            "
+            img="src\assets\EleticalPage\Automação.jpg"
+         />
          
          <ProjectsGalery
             images={[
-               'src/assets/EleticalPage/Projetos/LinhaInspecao.png',
-               'src/assets/EleticalPage/Projetos/SeccionadoraHorizontal.png',
-               'src/assets/EleticalPage/Projetos/TolvaRosqueadoraTampas.png',
-               'src/assets/EleticalPage/Projetos/EnvasadoraBaterias.png',
-               'src/assets/EleticalPage/Projetos/HotStamp.png',
-               'src/assets/EleticalPage/Projetos/MesaVibratoria.png'
+               'src/assets/MechanicalPage/Projetos/EnvasadoraBaterias.png',
+               'src/assets/MechanicalPage/Projetos/EsteiraDatador.png',
+               'src/assets/MechanicalPage/Projetos/AlimentadorBarras.png',
+               'src/assets/MechanicalPage/Projetos/DispositivoAutomacao.png',
+               'src/assets/MechanicalPage/Projetos/PeçaBomba.png',
+               'src/assets/MechanicalPage/Projetos/AlicateOdontologico.png',
+               'src/assets/MechanicalPage/Projetos/PinçaTransporte.png',
+               'src/assets/MechanicalPage/Projetos/EstampoProgressivo.png',
+               'src/assets/MechanicalPage/Projetos/EstampoInox.png',
+               'src/assets/MechanicalPage/Projetos/MoldeTermoformagem.png',
+               'src/assets/MechanicalPage/Projetos/MoldeTermoplatico.png',
+               'src/assets/MechanicalPage/Projetos/MoldeZemak1.png',
             ]}
          />
 
