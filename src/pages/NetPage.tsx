@@ -18,7 +18,7 @@ export function NetPage() {
    return(
       <div>
          <Banner 
-            img="src\assets\slides\NetSlide.png" 
+            img="src\assets\Telecom\NetSlide.png" 
             content="Transformando Provedores de Sucesso"
          />
 
