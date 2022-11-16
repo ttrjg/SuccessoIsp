@@ -7,7 +7,7 @@ header .content {
 }
 
 header img {
-    @apply md:h-full h-[85%] w-auto py-2;
+    @apply h-full w-auto scale-150;
 }
 
 header nav {
@@ -24,7 +24,7 @@ header ul li {
 }
 
 header ul li a {
-    @apply transition-all;
+    @apply transition-all h-full;
 }
 
 header ul li a::after {

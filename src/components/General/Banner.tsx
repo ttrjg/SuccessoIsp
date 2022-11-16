@@ -4,8 +4,8 @@ import { WhatsappLogo } from "phosphor-react"
 import './Banner.css'
 
 interface getData {
-   img: string,
-   content: string
+   img: string
+   content: string,
 }
 
 export function Banner(props: getData) {
@@ -36,7 +36,7 @@ export function Banner(props: getData) {
                   <div className="divider1"></div>
                </div>
 
-               <a href="https://api.whatsapp.com/message/BKDKMSKTRJSHH1?autoload=1&amp;app_absent=0" className="button" target="_blank">
+               <a href="https://wa.me/message/BKDKMSKTRJSHH1" className="button" target="_blank">
                   <WhatsappLogo size={32} />
                   Peça seu orçamento
                </a>

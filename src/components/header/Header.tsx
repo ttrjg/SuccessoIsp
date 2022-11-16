@@ -2,7 +2,7 @@
 import { List, X } from "phosphor-react"
 import { useState } from "react"
 
-import logo from "../../assets/LogoCompleta.svg"
+import logo from "../../assets/LogoLeafAZ.svg"
 
 import "./header.css"
 
@@ -60,7 +60,7 @@ export function Header(){
                <nav>
                <ul>
                   <li>
-                     <a href="/#home" > Sucesso ISP</a>  
+                     <a href="/#home" > Leaf</a>  
                   </li>
                   <li>
                      <a href="/#about" > Sobre</a>         
@@ -83,7 +83,7 @@ export function Header(){
                      <div className="Modal hidden">
                         <ul>
                               <li>
-                                 <a href="/#home" onClick={toggleStatus}> Sucesso ISP</a>  
+                                 <a href="/#home" onClick={toggleStatus}> Leaf</a>  
                               </li>
                               <li>
                                  <a href="/#about" onClick={toggleStatus}> Sobre</a>         

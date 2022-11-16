@@ -20,7 +20,7 @@ export function Contact(){
                   
                   <div className="phone"><EnvelopeSimple size={32} /><p>ispsucesso@gmail.com</p></div>
                   
-                  <a href="https://api.whatsapp.com/message/BKDKMSKTRJSHH1?autoload=1&amp;app_absent=0" className="button" target="_blank">
+                  <a href="https://wa.me/message/BKDKMSKTRJSHH1" className="button" target="_blank">
                      <WhatsappLogo size={32} />
                      Entrar em contato
                   </a>

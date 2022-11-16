@@ -1,6 +1,6 @@
 import { InstagramLogo, FacebookLogo, LinkedinLogo } from 'phosphor-react'
 
-import logoWhite from "../../assets/logoWhite.png"
+import logoWhite from "../../assets/LogoLeafAZ.svg"
 
 import './Footer.css'
 

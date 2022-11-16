@@ -15,12 +15,13 @@ export function SolarEnergy() {
       })
    }
 
+
    setTimeout(scrollTop,5)
    
    return (
       <div>
          <Banner 
-            img="src\assets\Banners\SolarBanner.png" 
+            img="/src/assets/Banners/SolarBanner.png"
             content="ESTEJA PRONTO PARA o futuro"
          />
          <InvestSolarEnergy />
@@ -28,15 +29,15 @@ export function SolarEnergy() {
          <Brands />
          <ProjectsGalery
             images={[
-               'src/assets/SolarProjects/UsinaARTSUL.png',
-               'src/assets/SolarProjects/UsinaJaperi.png',
-               'src/assets/SolarProjects/Usinaaviario.png',
-               'src/assets/SolarProjects/UsinaHakme.png',
-               'src/assets/SolarProjects/UsinaBelinati.png',
-               'src/assets/SolarProjects/UsinaFlorestopolis.png',
-               'src/assets/SolarProjects/UsinaSolo.png',
-               'src/assets/SolarProjects/UsinaKim.png',
-               'src/assets/SolarProjects/UsinaCasa.png'
+               '/src/assets/SolarProjects/UsinaARTSUL.png',
+               '/src/assets/SolarProjects/UsinaJaperi.png',
+               '/src/assets/SolarProjects/Usinaaviario.png',
+               '/src/assets/SolarProjects/UsinaHakme.png',
+               '/src/assets/SolarProjects/UsinaBelinati.png',
+               '/src/assets/SolarProjects/UsinaFlorestopolis.png',
+               '/src/assets/SolarProjects/UsinaSolo.png',
+               '/src/assets/SolarProjects/UsinaKim.png',
+               '/src/assets/SolarProjects/UsinaCasa.png'
             ]}
          />
          <Contact /> 
