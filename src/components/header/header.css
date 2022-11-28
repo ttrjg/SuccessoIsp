@@ -7,7 +7,7 @@ header .content {
 }
 
 header img {
-    @apply h-full w-auto scale-150;
+    @apply h-full w-auto;
 }
 
 header nav {

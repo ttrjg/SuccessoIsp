@@ -1,0 +1,35 @@
+#LoginForm {
+    @apply container flex justify-center sm:justify-start items-center h-full w-full;
+}
+
+#LoginForm img {
+    @apply absolute h-screen w-screen -z-10 object-cover object-right-top blur-sm;
+}
+
+#LoginForm form {
+    @apply flex flex-col items-center justify-center gap-8 p-10 md:p-16 lg:p-28 w-full sm:w-1/2 bg-white  shadow-md h-full min-w-max;
+}
+
+#LoginForm form label {
+    @apply flex flex-col gap-2 w-full;
+}
+
+#LoginForm form label h2 {
+    font-family: var(--font-title);
+    @apply text-[#0083FF] text-2xl;
+}
+
+#LoginForm form label input {
+    font-family: var(--font-content);
+    @apply py-2 px-2 border-2 border-[#0083FF] rounded-lg outline-sky-400;
+}
+
+#LoginForm form .links {
+    font-family: var(--font-content);
+    @apply text-gray-600 w-full flex justify-between px-1;
+}
+
+#LoginForm form button {
+    font-family: var(--font-title);
+    @apply w-full bg-[#1680d1] tracking-wider text-white text-xl py-2 rounded-lg hover:brightness-125 transition-all duration-300;
+}

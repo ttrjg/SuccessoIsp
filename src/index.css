@@ -28,7 +28,7 @@ body {
 }
 
 body {
-    @apply bg-slate-100;
+    @apply bg-slate-100 h-screen;
 }
 
 .button {
@@ -43,4 +43,8 @@ section#solar-banner {
 
 section {
     @apply box-border pt-10 md:pt-20 lg:pt-28 pb-10 md:pb-20 px-10;
+}
+
+#root {
+    @apply h-full;
 }

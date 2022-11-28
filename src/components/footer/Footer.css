@@ -1,5 +1,5 @@
 div.footer {
-    @apply w-full mx-auto px-4 py-10 flex justify-center items-center gap-6 bg-[#003156];
+    @apply w-full mx-auto py-10 flex flex-col-reverse sm:flex-row justify-center items-center bg-[#003156] bottom-0 gap-10 sm:gap-0;
 }
 
 div.footer h2 {
@@ -21,10 +21,15 @@ div.footer p {
 }
 
 .footer div.Socials {
-    @apply w-full h-full flex flex-col justify-center items-center;
+    @apply w-full h-full flex flex-col justify-center items-center gap-6;
 }
+
 .footer div.Socials .Social {
-    @apply flex gap-6 mt-6 justify-center;
+    @apply flex gap-6 justify-center;
+}
+
+.footer div.Socials p {
+    @apply text-base text-gray-600;
 }
 
 .Social a {
